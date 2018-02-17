@@ -14,6 +14,7 @@
 		FA9407DC1FFD254D00920ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9407DA1FFD254D00920ECF /* LaunchScreen.storyboard */; };
 		FA9407E71FFD254D00920ECF /* CoreML_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9407E61FFD254D00920ECF /* CoreML_testTests.swift */; };
 		FA9407F21FFD254D00920ECF /* CoreML_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9407F11FFD254D00920ECF /* CoreML_testUITests.swift */; };
+		FABF1EEF1FFD32700044AE4A /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FABF1EEE1FFD32700044AE4A /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FA9407ED1FFD254D00920ECF /* CoreML testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CoreML testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9407F11FFD254D00920ECF /* CoreML_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreML_testUITests.swift; sourceTree = "<group>"; };
 		FA9407F31FFD254D00920ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABF1EEE1FFD32700044AE4A /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Resnet50.mlmodel; path = ../../../../Downloads/Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				FA9407D11FFD254D00920ECF /* AppDelegate.swift */,
 				FA9407D31FFD254D00920ECF /* ViewController.swift */,
+				FABF1EEE1FFD32700044AE4A /* Resnet50.mlmodel */,
 				FA9407D51FFD254D00920ECF /* Main.storyboard */,
 				FA9407D81FFD254D00920ECF /* Assets.xcassets */,
 				FA9407DA1FFD254D00920ECF /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA9407D41FFD254D00920ECF /* ViewController.swift in Sources */,
+				FABF1EEF1FFD32700044AE4A /* Resnet50.mlmodel in Sources */,
 				FA9407D21FFD254D00920ECF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
